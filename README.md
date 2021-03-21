@@ -9,3 +9,4 @@ Detection sur des images examples:
 ```
 Detection via la caméra:
 ``` python detect_mask_video.py
+```

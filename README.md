@@ -8,5 +8,6 @@ Detection sur des images examples:
     python detect_mask_image.py --i image/img2.png
 ```
 Detection via la caméra:
-``` python detect_mask_video.py
+``` 
+python detect_mask_video.py
 ```

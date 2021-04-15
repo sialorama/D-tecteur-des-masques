@@ -10,7 +10,18 @@ Le dataset se compose de ```690``` images ```avec masque``` et ```686``` images 
 ## Déploiement:
 une fois que le détecteur de masque facial est formé, nous pouvons ensuite passer au chargement du détecteur de masque, effectuer une détection de visage, puis classer chaque visage comme "avec_masque" ou "sans_masque"
 Par ailleurs un smiley s'affichera selon le cas qui se présente.
+![smiley.png](smiley.png) ![pacontent.png](pacontent.png)
 Dans le cas de non port de masque un son sera joué, avertissant l'usager de porter son masque.
+
+## Dépendnaces:
+* Pour installer les packages requis, exécutez:
+
+pip installer tensorflow
+pip installer keras
+pip installer opencv-python
+pip3 install imutils
+pip3 install simpleaudio
+pip3 install python-vlc
 
 ## Utilisation de base:
 * Pour cloner le projet sur votre ordinateur à partir d'un terminal:
@@ -32,7 +43,8 @@ cd mon_dossier_du_projet
 ```
 
 ## Rendu:
+![rendu.png](rendu1.png)
+![rendu.png](rendu2.png)
 
 ## Références:
-
 [COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)

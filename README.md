@@ -19,14 +19,11 @@ Le dataset se compose de 690 avec masque et 686 sans masque
 ## Lancer le programme dans un terminal:
 
 Detection sur des images examples:
-```
-    python detect_mask_image.py --i image/img1.png
+``` python detect_mask_image.py --i image/img1.png
     python detect_mask_image.py --i image/img2.png
 ```
 Detection via la caméra:
-``` 
-python detect_mask_video.py
-```
+``` python detect_mask_video.py```
 
 ## Rendu:
 

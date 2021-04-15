@@ -33,6 +33,6 @@ cd mon_dossier_du_projet
 
 ## Rendu:
 
-## Ressources:
+## Références:
 
 [COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)

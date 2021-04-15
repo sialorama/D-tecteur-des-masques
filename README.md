@@ -1,6 +1,22 @@
-# D-tecteur-des-masques
-Construire un détecteur des masques sur des images et en temps réel en les bibliothèques Tensorflow, Keras, OpenCV, etc...
-## Ligne de code pour lancer le programme :
+# COVID-19: Détecteur de masque facial avec OpenCV, Keras et TensorFlow:
+
+Dans ce projet, vous apprendrez à entraîner un détecteur de masque facial COVID-19 avec OpenCV, Keras, TensorFlow et du Deep Learning.
+Construire un détecteur de masques sur des images préfaites et en temps réel avec une webcam grace à ces bibliothèques.
+
+## Déploiement:
+une fois que le détecteur de masque facial est formé, nous pouvons ensuite passer au chargement du détecteur de masque, effectuer une détection de visage, puis classer chaque visage comme "avec_masque" ou "sans_masque"
+Par ailleurs un smiley s'affichera selon le cas qui se présente.
+Dans le cas de non port de masque un son sera joué, avertissant l'usager de porter son masque.
+
+## Utilisation de base:
+Pour cloner le projet sur votre ordinateur à partir d'un terminal:
+git clone https://github.com/sialorama/Detecteur-de-masques.git
+cd mon_dossier_du_projet
+
+##
+Le dataset se compose de 690 avec masque et 686 sans masque
+
+## Lancer le programme dans un terminal:
 
 Detection sur des images examples:
 ```
@@ -11,5 +27,9 @@ Detection via la caméra:
 ``` 
 python detect_mask_video.py
 ```
-Ressources:
-[I'm an inline-style link](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)
+
+## Rendu:
+
+## Ressources:
+
+[COVID-19: Face Mask Detector with OpenCV, Keras/TensorFlow](https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/)

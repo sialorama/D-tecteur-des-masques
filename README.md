@@ -10,7 +10,10 @@ Le dataset se compose de ```690``` images ```avec masque``` et ```686``` images 
 ## Déploiement:
 une fois que le détecteur de masque facial est formé, nous pouvons ensuite passer au chargement du détecteur de masque, effectuer une détection de visage, puis classer chaque visage comme "avec_masque" ou "sans_masque"
 Par ailleurs un smiley s'affichera selon le cas qui se présente.
-![smiley.png](image/smiley.jpg) ![pacontent.png](image/pacontent.jpg)
+<br>
+![smiley.png](image/smiley.jpg)
+![pacontent.png](image/pacontent.jpg)
+<br>
 Dans le cas de non port de masque un son sera joué, avertissant l'usager de porter son masque.
 
 ## Dépendnaces:

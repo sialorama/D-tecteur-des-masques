@@ -14,16 +14,21 @@ git clone https://github.com/sialorama/Detecteur-de-masques.git
 cd mon_dossier_du_projet
 
 ##
-Le dataset se compose de 690 avec masque et 686 sans masque
+
+Cet ensemble de données se compose de 1376 images appartenant à deux classes:
+Le dataset se compose de 690 images ```avec masque``` et 686 ```sans masque```
 
 ## Lancer le programme dans un terminal:
 
 Detection sur des images examples:
-``` python detect_mask_image.py --i image/img1.png
+``` 
+    python detect_mask_image.py --i image/img1.png
     python detect_mask_image.py --i image/img2.png
 ```
 Detection via la caméra:
-``` python detect_mask_video.py```
+``` 
+    python detect_mask_video.py
+```
 
 ## Rendu:
 

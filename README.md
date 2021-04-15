@@ -4,8 +4,8 @@
 Dans ce projet, vous apprendrez à entraîner un détecteur de masque facial COVID-19 avec OpenCV, Keras, TensorFlow et du Deep Learning.
 Construire un détecteur de masques sur des images préfaites et en temps réel avec une webcam grace à ces bibliothèques.
 
-L'ensemble de données se compose de 1376 images appartenant à deux classes:
-Le dataset se compose de 690 images ```avec masque``` et 686 ```sans masque```
+L'ensemble de données se compose de ```1376``` images appartenant à deux classes:
+Le dataset se compose de ```690``` images ```avec masque``` et ```686``` images ```sans masque```
 
 ## Déploiement:
 une fois que le détecteur de masque facial est formé, nous pouvons ensuite passer au chargement du détecteur de masque, effectuer une détection de visage, puis classer chaque visage comme "avec_masque" ou "sans_masque"
